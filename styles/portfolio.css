@@ -30,7 +30,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
@@ -126,4 +126,115 @@ table{
     color: #474747;
     font-weight: 700;
     font-size: 20px;
+}
+/* what do i do section styles */
+.what-i-do-section{
+    text-align: center;
+    
+}
+.section-title{
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+.section-description{
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    /* background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px; */
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+.skill-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+/* resume section styles */
+.qualification{
+    display: flex;
+    gap: 71px;
+}
+.resume-title{
+    margin-top: 130px;
+    margin-bottom: 113px;
+    text-align: center;
+}
+.education-title, .experience-title{
+    margin-bottom: 30px;
+    
+}
+.education, .experience{
+    border-bottom: 1px solid #D1D1D1;
+    margin-top: 30px;
+    
+}
+.education-subtitle, .experience-subtitle{
+    margin-bottom: 10px;
+}
+.education-institute, .experience-inst{
+    margin-bottom: 20px;
+    color: #757575;
+}
+.education-description, .experience-des{
+    color: #757575;
+    margin-bottom: 30px;
+}
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
+    /* padding: 17px 18px; */
+    
+
+}
+.btn-color{
+    width: 200px;
+    height: 64px;
+    padding: 19px 17px 18px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+/* contact section styles */
+.contact{
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact-title{
+    text-align: left;
+}
+.contact input,textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 18px 30px;
+    border: 0;
+}
+.contact a{
+    text-decoration: none;
+    margin-left: 25px;
+}
+footer{
+    margin-top: 113px;
+}
+.contact-title{
+    margin-bottom: 28px;
 }
